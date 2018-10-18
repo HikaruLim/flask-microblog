@@ -8,16 +8,16 @@ def index():
 	user = {'username':'Hikaru'}
 	posts = [
 		{
-			'author':{'username':'John'},
+			'author':{'username':'John','age':23,'level':4},
 			'microblog':'Beautiful day in Portland!'
 		},
 		{
-			'author':{'username':'Susan'},
+			'author':{'username':'Susan','age':21,'level':2},
 			'microblog':'The Avengers movie was so cool!'
 		},
 		{
-			'author':{'username':'Papi'},
-			'microblog':{'today is a good day.'}
+			'author':{'username':'Papi','age':31,'level':2},
+			'microblog':'today is a good day.'
 		}
 	]
 
