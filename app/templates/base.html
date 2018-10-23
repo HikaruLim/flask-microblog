@@ -13,6 +13,7 @@
 			<a href="{{ url_for('login') }}">Login</a>
 		</div>
 		<hr>
+		<!-- routes.py 中用了 flash() 刷信息，这里接收显示 -->
 		{% with messages = get_flashed_messages() %}
 		{% if messages %}
 		<ul>
