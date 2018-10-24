@@ -1,5 +1,7 @@
 the practice follow with this guide:
-https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-ii-templates
+https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
+
+and the **old** ver(Chinese ver):http://www.pythondoc.com/flask-mega-tutorial/ 
 
 ---
 
