@@ -3,7 +3,7 @@
 {% block content %}
     <h1>Register</h1>
     <form action="" method="POST">
-        {{ form.hidden_tag() }}
+        {{ form.hidden_tag() }}        <!-- CSRF 防护，所有 form 表单都启用就是了-->
         <p>
             {{ form.username.label }}<br>
             {{ form.username(size=32) }}<br>
